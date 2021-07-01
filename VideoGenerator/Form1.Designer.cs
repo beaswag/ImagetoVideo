@@ -84,19 +84,19 @@
             // ImageDialog
             // 
             this.ImageDialog.FileName = "openFileDialog1";
-            this.ImageDialog.Filter = "Image file|*.png;*.jpeg;*.jpg;*.bmp;*.tiff;*.gif";
+            this.ImageDialog.Filter = "Image file|*.png;*.jpeg;*.jpg;*.bmp;*.tiff;*.gif|All files|*.*";
             this.ImageDialog.RestoreDirectory = true;
             // 
             // AudioDialog
             // 
             this.AudioDialog.FileName = "openFileDialog1";
-            this.AudioDialog.Filter = "Audio file|*.wav;*.mp3;*.ogg;*.aiff;*.aac";
+            this.AudioDialog.Filter = "Audio file|*.wav;*.mp3;*.ogg;*.aiff;*.aac|All files|*.*";
             this.AudioDialog.RestoreDirectory = true;
             // 
             // FFmpegOpen
             // 
             this.FFmpegOpen.FileName = "openFileDialog1";
-            this.FFmpegOpen.Filter = "ffmpeg.exe|ffmpeg.exe";
+            this.FFmpegOpen.Filter = "ffmpeg.exe|ffmpeg.exe|All files (*.*)|*.*";
             // 
             // imagePathText
             // 
